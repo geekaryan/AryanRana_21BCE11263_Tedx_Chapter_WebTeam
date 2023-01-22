@@ -1,0 +1,51 @@
+.img{
+    width: 450px;
+    height: 484px;
+    margin-right: 80px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.text{
+    font-family: 'Adamina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 65px;
+
+}
+
+.subText{
+    font-family: 'Aclonica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    width: 85%;
+    
+}
+
+.left{
+    margin-left: 100px;
+}
+
+.btn{
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    color: #FF2B06;
+    border: 2px solid #FF2B06;
+    border-radius: 48px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 36px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 45px;
+}

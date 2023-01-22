@@ -1,0 +1,60 @@
+.logo{
+    width: 754px;
+height: 808px;
+}
+
+.text{
+    font-family: 'Adamina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    margin-top: 220px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.subText{
+    font-family: 'ABeeZee';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.author{
+    font-family: 'ABeeZee';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #828282;
+}
+
+.btn{
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    color: #FF2B06;
+    border: 2px solid #FF2B06;
+    border-radius: 48px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 36px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 32px;
+}
+
+.up{
+    height: 100vh;
+}

@@ -1,0 +1,37 @@
+.logo{
+    width: 400px;
+height: 300px;
+}
+
+.about{
+    height: 100vh;
+}
+
+.text{
+    text-align: center;
+    font-family: 'Adamina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 94px;
+    margin-top: 148px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.subText{
+    font-family: 'Aclonica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    width: 55%;
+    
+}
