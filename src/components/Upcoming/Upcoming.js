@@ -19,7 +19,7 @@ const Upcoming = () => {
             <button className={styles.btn}>Read Full blog</button>
           </div>
         </div>
-        <div>
+        <div className={styles.imgDiv}>
           <img src={blog} alt="" className={styles.logo} />
         </div>
       </div>

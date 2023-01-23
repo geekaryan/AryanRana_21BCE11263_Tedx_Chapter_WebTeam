@@ -31,3 +31,49 @@
     gap: 34px;
     margin-right: 100px;
 }
+
+@media only screen and (max-width: 745px){
+    .logoDiv{
+        display: none;
+    }
+    .flex{
+        display: flex;
+        justify-content: center;
+    }
+    .lowflex{
+        margin-right: 0px;
+        gap: 120px;
+    }
+}
+
+@media only screen and (max-width: 630px){
+    .lowflex{
+        gap: 80px;
+    }
+
+}
+
+@media only screen and (max-width: 530px){
+    .lowflex{
+        gap: 60px;
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 420px){
+    .lowflex{
+        gap: 40px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 374px){
+    .lowflex{
+        gap: 30px;
+    }
+    
+
+}

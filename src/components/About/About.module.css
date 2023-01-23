@@ -3,9 +3,9 @@
 height: 300px;
 }
 
-.about{
+/* .about{
     height: 100vh;
-}
+} */
 
 .text{
     text-align: center;
@@ -34,4 +34,17 @@ height: 300px;
     line-height: 180%;
     width: 55%;
     
+}
+
+@media only screen and (max-width: 1145px){
+    .imgDiv{
+        display: none;
+    }
+    .subText{
+        width: 100%;
+    }
+    .flex{
+        margin-right: 60px;
+        margin-left: 60px;
+    }
 }

@@ -1,6 +1,6 @@
 .logo{
-    width: 754px;
-height: 808px;
+    width: 600px;
+height: 50%;
 }
 
 .text{
@@ -55,6 +55,25 @@ height: 808px;
     margin-top: 32px;
 }
 
-.up{
+/* .up{
     height: 100vh;
+} */
+
+@media only screen and (max-width: 1145px){
+    .imgDiv{
+        display: none;
+    }
+    .flex{
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 594px){
+    .flex{
+        justify-content: center;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
 }

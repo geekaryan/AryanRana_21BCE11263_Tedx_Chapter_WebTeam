@@ -23,7 +23,7 @@ const Main = () => {
           <button className={styles.btn}>Upcoming Events</button>
         </div>
       </div>
-      <div>
+      <div className={styles.imgDiv}>
         <img src={illusion} alt="img" className={styles.img} />
       </div>
     </div>

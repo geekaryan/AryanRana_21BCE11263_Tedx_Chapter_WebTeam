@@ -33,7 +33,7 @@ const About = () => {
             inspire you to do with your mind tomorrow?
           </p>
         </div>
-        <div>
+        <div className={styles.imgDiv}>
           <img src={stand} alt="stand" className={styles.logo} />
         </div>
       </div>

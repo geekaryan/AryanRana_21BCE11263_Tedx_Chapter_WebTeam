@@ -4,10 +4,16 @@
     margin-right: 80px;
 }
 
+@media only screen and (max-width: 1145px){
+    .imgDiv{
+        display: none;
+    }
+}
+
 .flex{
     display: flex;
     align-items: center;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .text{
@@ -33,6 +39,11 @@
     margin-left: 100px;
 }
 
+@media only screen and (max-width: 520px){
+    .left{
+        margin-left: 40px;
+    }
+}
 .btn{
     font-family: 'Abhaya Libre Medium';
     font-style: normal;

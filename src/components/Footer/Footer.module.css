@@ -1,4 +1,41 @@
-.logo{
-    width: 100%;
-    margin-top: 250px;
+.flex{
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.bg{
+    background: #101010 !important;
+}
+
+.imgFlex{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.text{
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FF2B06;
+}
+
+.subtext{
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F2F2F2;
+}
+
+@media only screen and (max-width: 520px){
+    .show{
+        display: none;
+    }
 }
